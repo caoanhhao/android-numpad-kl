@@ -1,0 +1,13 @@
+type OVERLAY
+
+map key 79 1
+map key 80 2
+map key 81 3
+map key 75 4
+map key 76 5
+map key 77 6
+map key 71 7
+map key 72 8
+map key 73 9
+map key 82 0
+map key 83 PERIOD

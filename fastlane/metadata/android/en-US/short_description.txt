@@ -1,1 +1,1 @@
-TitanQwerty is based on FinQwerty and provides custom keyboard layouts
+Android numpad keyboard layout support physical numpad number

@@ -1,0 +1,17 @@
+apply plugin: 'com.android.application'
+
+def generatedLayoutsResDir = new File("$buildDir/generated/layouts")
+def generatedLayoutsRawDir = new File("$generatedLayoutsResDir/raw")
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 31
+        versionCode 39
+        versionName "1.6.5"
+    }
+
+    sourceSets.main.res.srcDirs += generatedLayoutsResDir
+}
